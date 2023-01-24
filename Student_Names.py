@@ -1,4 +1,4 @@
-s = op3n('studentnames.txt','r')
+s = open('studentnames.txt','r')
 tmp = s.readline().rstrip('\n')
 print(tmp)
 count=1
